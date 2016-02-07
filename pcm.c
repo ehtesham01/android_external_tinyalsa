@@ -1133,6 +1133,6 @@ int pcm_set_samplerate(struct pcm *pcm, unsigned int flags, struct pcm_config *c
         fprintf(stderr, "%s, SNDRV_PCM_IOCTL_HW_PARAMS failed (%s) ", __func__,strerror(errno));
         return -1;
     }
-    ALOGW("%s, out,samplerate (%d) ",__func__,samplerate);
+//    ALOGW("%s, out,samplerate (%d) ",__func__,samplerate);
     return 0;
 }
